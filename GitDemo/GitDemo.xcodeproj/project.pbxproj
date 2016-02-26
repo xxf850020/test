@@ -14,6 +14,7 @@
 		BCC6E9EB1C802243001D6ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC6E9EA1C802243001D6ADD /* Assets.xcassets */; };
 		BCC6E9EE1C802243001D6ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC6E9EC1C802243001D6ADD /* LaunchScreen.storyboard */; };
 		BCC6E9F91C8025B2001D6ADD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC6E9F81C8025B2001D6ADD /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		BCC6E9FE1C8026FC001D6ADD /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC6E9FD1C8026FC001D6ADD /* Student.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		BCC6E9EF1C802243001D6ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCC6E9F71C8025B2001D6ADD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		BCC6E9F81C8025B2001D6ADD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		BCC6E9FC1C8026FC001D6ADD /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		BCC6E9FD1C8026FC001D6ADD /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				BCC6E9F61C802599001D6ADD /* A */,
+				BCC6E9FA1C8026DC001D6ADD /* B */,
 				BCC6E9E11C802242001D6ADD /* AppDelegate.h */,
 				BCC6E9E21C802242001D6ADD /* AppDelegate.m */,
 				BCC6E9E41C802242001D6ADD /* ViewController.h */,
@@ -90,6 +94,15 @@
 				BCC6E9F81C8025B2001D6ADD /* Person.m */,
 			);
 			name = A;
+            sourceTree = "<group>";
+        };
+		BCC6E9FA1C8026DC001D6ADD /* B */ = {
+			isa = PBXGroup;
+			children = (
+				BCC6E9FC1C8026FC001D6ADD /* Student.h */,
+				BCC6E9FD1C8026FC001D6ADD /* Student.m */,
+			);
+			name = B;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +179,7 @@
 				BCC6E9E31C802242001D6ADD /* AppDelegate.m in Sources */,
 				BCC6E9F91C8025B2001D6ADD /* Person.m in Sources */,
 				BCC6E9E01C802242001D6ADD /* main.m in Sources */,
+				BCC6E9FE1C8026FC001D6ADD /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
